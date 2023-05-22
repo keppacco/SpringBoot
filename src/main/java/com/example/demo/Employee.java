@@ -1,7 +1,7 @@
 package com.example.demo;
 
 public class Employee {
-    private Long id;
+    private int id;
     private String name;
     private String lastName;
     private String position;
@@ -10,7 +10,7 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(Long id, String name, String lastName, String position, double salary) {
+    public Employee(int id, String name, String lastName, String position, double salary) {
         this.id = id;
         this.name = name;
         this.lastName = lastName;
@@ -18,11 +18,11 @@ public class Employee {
         this.salary = salary;
     }
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
